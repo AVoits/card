@@ -1,0 +1,69 @@
+body, html {
+    background-color: #FFD0CC;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100vh - 40px);
+
+    position: relative;
+
+    overflow: hidden;
+
+    border: 20px solid #09AAAA;
+}
+
+#bg {
+}
+
+#it2g {
+    width: 600px;
+    position: absolute;
+}
+
+
+#heart {
+    position: absolute;
+}
+
+
+
+#it2g .letter {
+    fill: white;
+}
+
+#letter-lines, #letter-arrow {
+    fill: #09AAAA;
+}
+
+
+.heart-small {
+    width: 32px;
+    height: 32px;
+    fill: #E35336;
+
+    z-index: 10;
+    position: absolute;
+}
+
+
+#repeat {
+    width: 42px;
+    height: 42px;
+
+    position: absolute;
+    bottom: 30px;
+}
+
+#repeat:hover #circle-repeat {
+    fill: #CC3529;
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=/it2g.44d162ae.css.map */
